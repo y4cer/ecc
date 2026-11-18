@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -pthread -Wl,--dependency-file=CMakeFiles/lwe.dir/link.d CMakeFiles/lwe.dir/src/main.cpp.o CMakeFiles/lwe.dir/src/ecc/ecc.cpp.o -o lwe  /usr/lib/libntl.so

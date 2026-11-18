@@ -1,3 +1,0 @@
-/home/lesorub/progs/cpp/ecc/build/CMakeFiles/lwe.dir
-/home/lesorub/progs/cpp/ecc/build/CMakeFiles/edit_cache.dir
-/home/lesorub/progs/cpp/ecc/build/CMakeFiles/rebuild_cache.dir
