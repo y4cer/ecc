@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/lesorub/progs/cpp/ecc/build",
+  "command": "/usr/bin/c++   -g -std=c++20 -Wall -Wextra -Wpedantic -pthread -o CMakeFiles/lwe.dir/src/main.cpp.o -c /home/lesorub/progs/cpp/ecc/src/main.cpp",
+  "file": "/home/lesorub/progs/cpp/ecc/src/main.cpp",
+  "output": "CMakeFiles/lwe.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/lesorub/progs/cpp/ecc/build",
+  "command": "/usr/bin/c++   -g -std=c++20 -Wall -Wextra -Wpedantic -pthread -o CMakeFiles/lwe.dir/src/ecc/ecc.cpp.o -c /home/lesorub/progs/cpp/ecc/src/ecc/ecc.cpp",
+  "file": "/home/lesorub/progs/cpp/ecc/src/ecc/ecc.cpp",
+  "output": "CMakeFiles/lwe.dir/src/ecc/ecc.cpp.o"
+}
+]

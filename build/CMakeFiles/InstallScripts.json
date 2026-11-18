@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/lesorub/progs/cpp/ecc/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
