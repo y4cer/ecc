@@ -8,18 +8,18 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(NTL REQUIRED IMPORTED_TARGET ntl)
 
-add_executable(lwe
+add_executable(ecc
     src/main.cpp
     src/ecc/ecc.cpp
 )
 
-set_target_properties(lwe PROPERTIES
+set_target_properties(ecc PROPERTIES
     CXX_STANDARD 20
     CXX_STANDARD_REQUIRED YES
     CXX_EXTENSIONS NO
 )
-target_link_libraries(lwe PRIVATE PkgConfig::NTL)
+target_link_libraries(ecc PRIVATE PkgConfig::NTL)
 
 if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
-    target_compile_options(lwe PRIVATE -Wall -Wextra -Wpedantic)
+    target_compile_options(ecc PRIVATE -Wall -Wextra -Wpedantic)
 endif()
